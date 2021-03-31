@@ -1,0 +1,88 @@
+/*Home*/
+.seccion-titulo{
+    text-align: center;
+    margin: auto;
+}
+
+.seccion-recetas{
+    text-align: center;
+    margin: auto;
+}
+
+.seccion-recetas .imagen-link{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.seccion-recetas a img{
+    width: auto;
+    height: 100%;
+    margin-left: -30px;
+}
+
+/*Clásico Lemon Pie*/
+.titulo-lemon-pie{
+    background-color: #FEF400;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.descripcion-lemon-pie{
+    color: #444444;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitulo-lemon-pie{
+    background-color: #EAEAEA;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.sumario-lemon-pie{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+ul.ingredientes-lemon-pie li{
+    color: #444444;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol.instrucciones-lemon-pie li{
+    color: #444444;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Carrot Cake de Agus*/
+.titulo-carrot-cake{
+    background-color: #FEA500;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.descripcion-carrot-cake{
+    color: #444444;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitulo-carrot-cake{
+    background-color: #EAEAEA;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+ul.ingredientes-carrot-cake li{
+    color: #444444;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol.instrucciones-carrot-cake li{
+    color: #444444;
+    font-family: Arial, Helvetica, sans-serif;
+}
