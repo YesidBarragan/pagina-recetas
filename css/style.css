@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display:ital,wght@1,700&display=swap');
+
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
 /*Home*/
 .seccion-titulo{
     text-align: center;
@@ -25,37 +29,43 @@
 }
 
 /*Clásico Lemon Pie*/
+.encabezado-lemon-pie{
+    background-image: url(../img/lemon-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
 .titulo-lemon-pie{
-    background-color: #FEF400;
-    color: #000000;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 43px;
+    padding-top: 275px;
 }
 
 .descripcion-lemon-pie{
-    color: #444444;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .subtitulo-lemon-pie{
-    background-color: #EAEAEA;
     color: #000000;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
+    font-family: "Playfair Display",serif;
+    font-size: 25px;
 }
 
 .sumario-lemon-pie{
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
+    font-family: "Playfair Display",serif;
 }
 
 ul.ingredientes-lemon-pie li{
     color: #444444;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 ol.instrucciones-lemon-pie li{
     color: #444444;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 /*Carrot Cake de Agus*/
